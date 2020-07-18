@@ -1,0 +1,194 @@
+*{
+	font-family: Arial, sans-serif;
+	font-weight: 400;
+	font-size: 14px
+}
+p{
+	margin: 0;
+}
+
+
+.container{
+	max-width: 1140px;
+	width: 100%;
+	margin:0 auto;
+}
+
+@media(max-width: 1200px){
+	.container{
+		max-width: 960px;
+	}
+}
+@media(max-width: 991px){
+	.container{
+		max-width: 720px;
+	}
+}
+@media(max-width: 768px){
+	.container{
+		max-width: 576px;
+	}
+}
+
+div{
+	box-sizing: border-box;
+}
+header .top-line{
+	background-color: #37a14c;
+}
+header .top-line .content{
+	padding-top: 17px;
+	padding-bottom: 9px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+
+header .top-line p{
+	 font-size: 16px;
+	 color: #fff;
+}
+
+
+header .top-line .links{
+	display: flex;
+}
+
+
+header .top-line .links a:hover{
+	opacity: .5;
+	transition: all 400ms ease;
+}
+
+header .top-line .links a{
+	margin-right: 6px;
+	text-decoration: none;
+	display: block;
+	transition: all 400ms ease;
+	opacity: 1;
+}
+header .top-line .links a:last-child{
+	margin-right: 0;
+}
+
+header .middle-line .content{
+	padding-top: 13px;
+	padding-bottom: 11px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .middle-line .content .logo img{
+	width: 100%;
+	height: auto;
+	max-width: 150px;
+}
+header .middle-line .content .logo{
+	display: block;
+	margin-right: 15px;
+}
+
+header .middle-line .content .contact{
+	max-width: 268px;
+	width: 100%;
+	margin-right: 15px;
+}
+header .middle-line .content .contact .line{
+	display: flex;
+	align-items: center;
+	margin-bottom: 9px;
+}
+header .middle-line .content .contact .line:first-child,header .middle-line .content .contact .line:last-child{
+	margin-bottom: 0;
+}
+header .middle-line .content .contact .line p{
+  color: #0f680e;
+  font-size: 16px;
+  width: 100%;
+  max-width: 81px;
+  margin-right: 8px;
+}
+header .middle-line .content .contact .line a{
+  color: #0f680e;
+  font-size: 20px;
+  text-decoration: none;
+}
+header .middle-line .content .contact .line.skype a{
+	font-size: 16px;
+	color:#1200ff;
+	display: flex;
+	align-items: center;
+}
+header .middle-line .content .contact .line.skype a img{
+	margin-right: 7px;
+}
+header .middle-line .content .nav-link{
+	max-width: 138px;
+	width: 100%;
+}
+header .middle-line .content .nav-link a{
+	padding: 11px 8px;
+	font-size: 16px;
+	color: #fff;
+	background-color: #ed9d25;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	border-radius: 10px;
+	margin-bottom: 11px; 
+	box-shadow: 5px 5px 5px rgba(0,0,0,.5);
+	transition: all ease 400ms;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+header .middle-line .content .nav-link a:hover{
+	transition: all ease 400ms;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+	top: 3px;
+	left: 3px;
+}
+
+header .middle-line .content .nav-link a:last-child{
+	margin-bottom: 0;
+}
+header .middle-line .content .right{
+	margin-left: 15px;
+	width: 100%;
+	height: auto;
+	max-width: 350px;
+}
+header .menu{
+	background-color: #37a14c;
+}
+header .menu menu{
+	list-style: none;
+	display: flex;
+}
+header .menu menu li{
+	width: 20%;
+	text-align: center;
+	border-right: 1px solid #a3d606;
+	opacity: 1;
+	transition: all easy 400ms;
+}
+header .menu menu li:first-child{
+	border-left: 1px solid #a3d606;
+
+}
+header .menu menu li a{
+	color: #fff;
+	font-size: 16px;
+	text-decoration: none;
+	display: block;
+	padding: 16px 0;
+	text-align: center;
+}
+header .menu menu li:hover{
+	transition: all easy 400ms;
+	opacity: .5;
+}
