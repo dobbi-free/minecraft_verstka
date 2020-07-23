@@ -174,7 +174,7 @@ header .menu menu li{
 	text-align: center;
 	border-right: 1px solid #a3d606;
 	opacity: 1;
-	transition: all easy 400ms;
+	transition: all ease 400ms;
 }
 header .menu menu li:first-child{
 	border-left: 1px solid #a3d606;
@@ -189,6 +189,137 @@ header .menu menu li a{
 	text-align: center;
 }
 header .menu menu li:hover{
-	transition: all easy 400ms;
+	transition: all ease 400ms;
 	opacity: .5;
+	box-shadow: 2px 2px 2px rgba(0,0,.5,.5);
+	position: relative;
+	top: 0;
+	left: 0;
+
+}
+section .sidebar{
+	max-width: 231px;
+	list-style: none;
+	display:inline-flex;
+	padding-right:104px;
+	padding-bottom: 120px;
+    
+
+}
+
+
+section .sidebar .content{
+
+
+}
+section .sidebar .content li a{
+	font-size: 20px;
+	color: #010101;
+	text-decoration: none;
+	display: block;
+	padding:18px 18px;
+	border-bottom: 1px solid #eee;
+
+
+}
+section .main-block {
+	display:inline-flex;
+	float:right;
+
+}
+
+section .main-block .main-content img{
+	width: 100%;
+	max-width: 700px;
+	padding-top: 15px;
+
+	
+}
+section .main-block .main-content p{
+	font-size:24px;
+}
+
+section .main-block .main-content div{
+	font-size:14px;
+	width: 700px;
+	padding-top: 19px;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 36px;
+	margin-bottom: 50px;
+}
+
+.columns{
+	display:grid;
+	grid-template-columns: 30% 30% 30%;
+	grid-column-gap: 25px;
+	width:70%;
+	float: right;
+	color:#fff;
+
+}
+.columns .column1{
+	background: linear-gradient(to top,#008000 ,#2E8B57 );
+
+
+}
+.columns .column2{
+	background: linear-gradient(to top,#008000 ,#2E8B57 );
+}
+.columns .column3{
+	background: linear-gradient(to top,#008000 ,#2E8B57 );
+}
+.columns p span{
+	color:#000;
+    font-size: 
+}
+
+.columns img{
+	width: 239px;
+	width: 100%;
+	height: auto;
+}
+footer{
+	margin-top:300px;
+	background: linear-gradient(to top,#FFD700,#FFA500);
+
+}
+footer .content{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+footer .content p{
+	font-size: 20px;
+	color: #ffffff;
+}
+footer .contact{
+	max-width: 268px;
+	width: 100%;
+	margin-right: 15px
+}
+footer.contact.line{
+	display: flex;
+	align-items: center;
+	margin-bottom: 9px;
+}
+footer  .content .contact .line:first-child,footer  .content .contact .line:last-child{
+	margin-bottom: 0;
+}
+footer .content .contact .line p{
+  color: #000;
+  font-size: 16px;
+  width: 100%;
+  max-width: 81px;
+ 
+}
+footer  .content .contact .line a{
+  color: #000;
+  font-size: 20px;
+  text-decoration: none;
+}
+footer .bottom-line{
+	background: linear-gradient(to top,#008000 ,#2E8B57 );
+	padding-top:10px;
+	padding-bottom: 10px;
 }
